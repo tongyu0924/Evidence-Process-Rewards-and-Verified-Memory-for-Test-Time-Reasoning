@@ -1,0 +1,6 @@
+vllm>=0.11.0
+transformers>=4.57.0
+datasets
+huggingface_hub
+pillow
+numpy
