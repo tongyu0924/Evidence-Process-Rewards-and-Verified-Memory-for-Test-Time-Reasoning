@@ -10,6 +10,8 @@ Test-time self-improvement for frozen vision-language models on multi-image diag
 
 ## Results
 
+### Accuracy
+
 Accuracy (%) on the MedThinkVQA test split (720 cases). Δ is the change from CoT.
 
 | Method | Qwen3-VL-4B | Δ | Qwen3-VL-8B | Δ |
@@ -19,6 +21,12 @@ Accuracy (%) on the MedThinkVQA test split (720 cases). Δ is the change from Co
 | ACE | 30.2 | +2.8 | 33.8 | +2.5 |
 | TRT | 31.0 | +3.6 | 34.5 | +3.2 |
 | **Ours** | **45.2** | **+17.8** | **48.9** | **+17.6** |
+
+### Example Playbook entries
+
+Two entries from the Playbook built on the training split. Each item is backed by a sentence selected by the model from the original case text; pitfalls come from the student model's own mistakes.
+
+![Playbook entries](assets/playbook_entries.png)
 
 ## Setup
 
