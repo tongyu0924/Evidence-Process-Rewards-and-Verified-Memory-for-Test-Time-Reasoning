@@ -26,7 +26,7 @@ Accuracy (%) on the MedThinkVQA test split (720 cases). Δ is the change from Co
 
 Two entries from the Playbook built on the training split. Each item is backed by a sentence selected by the model from the original case text; pitfalls come from the student model's own mistakes.
 
-![Playbook entries](assets/playbook_entries.png)
+![Playbook entries](assets/playbook_entries_300.png)
 
 ## Setup
 
